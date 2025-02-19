@@ -1,0 +1,8 @@
+name: tvm-action
+description: "Action for TVM can be used for development on TON, Everscale, Gosh, Venom"
+branding:
+  icon: "play-circle"
+  color: "gray-dark"
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/ever-guild/tvm-action:1.2.0'
